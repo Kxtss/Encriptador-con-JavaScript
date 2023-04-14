@@ -1,13 +1,3 @@
-// La letra "a" es convertida para "ai", La letra "e" es convertida para "enter", La letra "i" es convertida para "imes", La letra "o" es convertida para "ober", La letra "u" es convertida para "ufat"
-/*
-    Por ejemplo:
-    "gato" => "gaitober"
-    gaitober" => "gato"
-
-    - Debe funcionar solo con letras minúsculas
-
-    - No deben ser utilizados letras con acentos ni caracteres especiales
-*/
 
 function encriptar (){
     var texto = document.querySelector("#texto").value;
