@@ -1,0 +1,153 @@
+html {
+    background: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+}
+
+body {
+    width: auto;
+}
+
+header {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: lighter;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(0.8px);
+}
+
+header h1 {
+    padding: 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+header p {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+main {
+    margin: 10px 55% 10px 10px;
+    padding: 15px;
+}
+
+main h2 {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    color: aliceblue;
+    backdrop-filter: blur(0.6px);
+}
+
+#inputsEn {
+    position: absolute;
+    right: 10%;
+    margin: -20px;
+    width: 300px auto;
+    bottom: 27%;
+}
+
+#inputsEn > section {
+    position: absolute;
+    left: 18%;
+    top: 37%;
+    color: white;
+    font: caption;
+    font-size: 20px;
+    margin: 20px;
+    backdrop-filter: blur(0.2px);
+}
+
+.labOptEncry1, .labOptEncry2 {
+    display: inline-block;
+    padding: 20px;
+    width: 70%;
+    margin: 30px;
+    text-align: center;
+}
+
+#optEncry1, #optEncry2 {
+    padding: 30px;
+    width: 50%;
+    border-radius: 20px;
+    background: url(https://www.xtrafondos.com/wallpapers/astronauta-perdido-en-el-espacio-5498.jpg) -20px -50%;
+    color: whitesmoke;
+}
+
+#encriptador, #texto, #resultado, #resultEn {
+    padding: 35px;
+    backdrop-filter: blur(1px);
+    border-radius: 50px;
+}
+
+#encriptador {
+    margin: 5px;
+    padding: 10px;
+}
+
+#texto {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(https://www.xtrafondos.com/wallpapers/astronauta-perdido-en-el-espacio-5498.jpg) -20px -50%;
+    
+}
+
+#texto::placeholder, #resultEn::placeholder {
+    color:  whitesmoke;
+}
+
+section {
+    margin: 10px 55% 5% 10px;
+    padding: 15px;
+}
+
+#res h3 {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#resultado {
+    padding: 10px;
+    margin: 5px;
+}
+
+#resultEn {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(https://www.xtrafondos.com/wallpapers/astronauta-perdido-en-el-espacio-5498.jpg) -20px -50%;
+}
+
+fieldset {
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    color:whitesmoke;
+}
+
+#copiartexto {
+    background:url(https://www.xtrafondos.com/wallpapers/astronauta-perdido-en-el-espacio-5498.jpg) -20px -50%;
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+footer {
+    padding: 1.4%;
+    backdrop-filter: blur(2px);
+    color: azure;
+    position: relative;
+}
+
+
+#hashtag {
+    text-decoration: underline;
+}
+
+#nombre {
+    text-align: end;
+}

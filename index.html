@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Encriptador y desencriptador de texto</h1>
+            <p> Debe funcionar solo con letras minúsculas, no deben ser utilizadas letras con acentos ni caracteres especiales</p>
+        </header>
+
+        <main>
+            <h2>Coloque el texto a encriptar o desencriptar</h2>
+            <nav id="encriptador">
+                <textarea  cols="75" rows="" type="text-input" id="texto" placeholder="coloque su texto aqui y en la parte inferior derecha puede modificar el tamaño del cuadro"></textarea>
+            </nav>
+        </main>
+
+        <nav id="inputsEn">
+            <section>
+                <p> Seleccione una opcion </p>
+            </section>
+            <label class="labOptEncry1" for="optEncry">
+                <input type="button" name="optEncry" id="optEncry1" value="ENCRIPTAR" required>
+            </label>
+            <label class="labOptEncry2" for="optEncry">
+                <input type="button" name="optEncry" id="optEncry2" value="DESENCRIPTAR" required>
+            </label>
+        </nav>
+
+        <section id="res">
+            <h3>Resultado</h3>
+            <nav id="resultado">
+                <textarea type="text" cols="75" rows="2" name="resultEn" id="resultEn" contenteditable="true" placeholder="Su resultado se vera aqui y en la parte inferior derecha puede modificar el tamaño del cuadro"></textarea>
+            </nav>
+        </section>
+
+        <fieldset>
+            <label for="copiartexto">
+                <button type="submit" name="copiartexto" id="copiartexto"> Si desea copiar el texto haga click en el boton
+            </label>
+
+        </fieldset>
+
+        <footer> 
+            <tbody>
+                <p id="challenge">Challenge One Sprint 01: Construye un encriptador de texto con Javascript <p id="nombre">Realizado por Marco Caudillo</p></p>
+                <br>
+                <p id="hashtag">#challengeonecodificador5</p>
+            </tbody>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
